@@ -7,6 +7,6 @@ metadata:
 
 managedNodeGroups:
   - name: roboshop-dev
-    instanceTypes: ["c5.large", "t3.small", "t3.medium", "c5.large"] # At least one instance type should be specified
+    instanceTypes: ["m5.large", "t3.small", "t3.medium", "c5.large"] # At least one instance type should be specified
     desiredCapacity: 2 # bythis value it is default 3
     spot: true
